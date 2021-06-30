@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --primary-color: #818CF8;
+    --light-black: #333333;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+}
+
+/* @navigation */
+
+.navigation-container {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.nav-brand {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* text-area */
+
+#txt-input {
+    width: 50%;
+    height: 10vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3rem;
+    display: block;
+    padding: 1rem;
+}
+
+/* paraphrase-button */
+
+#btn-paraphrase {
+    background-color: var(--primary-color);
+    color: white;
+    margin-left: 25%;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    border-color: var(--light-black);
+}
+
+#paraphrase-txt {
+    margin-top: 1rem;
+    margin-left: 25%;
+}
+
+/* output-box */
+
+#output {
+    border: 1px solid var(--light-black);
+    width: 50%;
+    height: 10vh;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    overflow: scroll;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+}
+
+.footer .footer-header {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer .footer-paragraph {
+    font-size: small;
+    width: 55%;
+    margin-left: 25%;
+}
